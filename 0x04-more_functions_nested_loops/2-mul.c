@@ -1,19 +1,13 @@
-#include <stdio.h>
 #include "main.h"
 
 /**
- * Print_numbers - functions that print all numbers from
- * 0-9
- *
- * return: returns nothing
+ * mul - multiplication of two numbers
+ * @a: first number
+ * @b: second number
+ * Return: returns result
  */
 
-void print_numbers(void)
+int mul(int a, int b)
 {
-	int n;
-	for (n = 48; n < 58; n++)
-	{
-		putchar(n);
-	}
-	putchar(10);
+	return (a * b);
 }
